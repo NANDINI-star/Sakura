@@ -3,18 +3,25 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-pink-100 py-16 relative">
-      <div className="container mx-auto text-center relative z-10">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Sakura Science Club India</h1>
-        <p className="text-xl mb-8">
-          Promoting Education Worldwide and Inspiring Study in Japan
+    <section className="py-16 relative" >
+    <h2>asda
+      asdasdasda
+    </h2>
+    {/* <div class="wrap w-5/6 mx-auto">
+    <div class="grid grid-cols-10 ">
+      <div class="row-span-full col-start-4 col-end-11 self-center">
+        <div class="object-cover rounded-3xl bg-pink-400 h-96 w-[100]" ></div>
+      </div>
+      <div class="row-span-full col-start-1 col-end-5 self-center p-4 text-white bg-pink-300 to-red-200 rounded-3xl via-pink-500 from-blue-500">
+        <h1 class="text-4xl font-bold mt-0"> Welcome to Saura science Club</h1>
+        <p class="mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
       </div>
-      <div className="absolute top-1/2 left-1/2 ">
-        <div className="w-96 h-48 bg-pink-400 rounded-xl absolute -left-12"></div>
-        <div className="w-96 h-48 bg-pink-300 rounded-xl absolute -right-12 -top-6"></div>
-      </div>
+    </div>
+  </div> */}
     </section>
+   
   );
 };
 

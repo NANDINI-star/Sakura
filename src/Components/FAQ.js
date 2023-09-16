@@ -1,24 +1,45 @@
 // FAQ.js
 import React from 'react';
+import FAQCompo from './SmallCompo/FAQCompo';
 
 const FAQ = () => {
   return (
-    <section id="faq" className="bg-pink-100 py-16">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-8">FAQ Section</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-4 border rounded shadow bg-white">
-            <h3 className="text-xl font-semibold mb-4">Question 1</h3>
-            <p>Answer to the first frequently asked question goes here.</p>
-          </div>
-          <div className="p-4 border rounded shadow bg-white">
-            <h3 className="text-xl font-semibold mb-4">Question 2</h3>
-            <p>Answer to the second frequently asked question goes here.</p>
-          </div>
-          {/* <!-- Add more FAQ items as needed --> */}
+    <div style={{ backgroundColor: '#D0DDFF' }}>
+      <div className='container mx-auto  flex flex-col items-center justify-center' >
+          <div className='relative max-w-[970px] pb-10 mx-auto max-h-[350px] rounded-[58px] my-[50px] mb-[100px] border border-black' style={{ backgroundColor: '#FFE8E8' }}>
+           <div className='flex px-[100px] flex-col justify-center items-center gap-5'>
+              <div className='mt-10'>
+                <h1 className='text-6xl text-semsolid'>
+                FAQs
+                </h1>
+              </div>
+              <div className=' overflow-visible max-w-[700px] '>
+                <p className='text-xl leading-loose'>
+                  In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                </p>
+              </div>
+           </div>
+           <div>
+            <img
+            className='absolute -bottom-8 -right-14 w-[180px] h-[180px]'
+            style={{
+              maxHeight:'100%',
+              maxWidth:'100%',
+            }}
+             src='/assets/Female-user-help-icon 1.png'
+             alt='OverLay'
+             />
+           </div>
+         </div>
+
+        <div>
+            <FAQCompo />
+            <FAQCompo />
+            <FAQCompo />
+            <FAQCompo />
         </div>
       </div>
-    </section>
+      </div>
   );
 };
 
