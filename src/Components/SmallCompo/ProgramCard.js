@@ -3,7 +3,7 @@ import React from 'react'
 function ProgramCard() {
   return (
     <div>
-           <div class="max-w-[320px] rounded-[58px] overflow-hidden shadow-lg">
+           <div class="max-w-[320px]  rounded-[58px] overflow-hidden shadow-lg hover:scale-105">
               <img class="w-full" src="/assets/Mask group.png" alt="Sunset in the mountains"/>
               <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">The Coldest Sunset</div>

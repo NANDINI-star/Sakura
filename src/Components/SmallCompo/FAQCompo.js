@@ -14,7 +14,7 @@ function FAQCompo() {
   };
 
   return (
-    <div className="Accordion bg-white p-2 md:p-4 mb-4 rounded-[30px] shadow max-w-[953px] h-93 flex flex-col">
+    <div className="Accordion bg-white p-2 md:p-4 mb-4 rounded-[30px] my-10 shadow max-w-[953px] h-93 flex flex-col">
       <div className="question flex items-center justify-between cursor-pointer" onClick={toggleAccordion}>
         <h4 className="text-lg w-795 h-30 "   
         style={{ color: isActive ? '#BC005A' : 'black',
@@ -34,10 +34,7 @@ function FAQCompo() {
       >
         <p>
           Lorem ipsum, dolor sit ametLorem ipsum, dolor sit amet consectetur adipisicing elit. Ea deleniti itaque accusantium cumque dolorum ex dolor. Laborum, quidem odio. Sed?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea deleniti itaque accusantium cumque dolorum ex dolor. Laborum, quidem odio. Sed?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea deleniti itaque accusantium cumque dolorum ex dolor. Laborum, quidem odio. Sed?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea deleniti itaque accusantium cumque dolorum ex dolor. Laborum, quidem odio. Sed?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit. Ea deleniti itaque accusantium cumque dolorum ex dolor. Laborum, quidem odio. Sed?
+         itconsectetur adipisicing elit. Ea deleniti itaque accusantium cumque dolorum ex dolor. Laborum, quidem odio. Sed?
         </p>
       </div>
     </div>

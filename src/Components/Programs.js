@@ -9,7 +9,7 @@ function Programs() {
                   Sakura Science Exchange Programs
               </h1>
           </div>
-          <div className='flex justify-between gap-2'>
+          <div className='flex justify-between gap-5 flex-wrap'>
             <ProgramCard/>
             <ProgramCard/>
             <ProgramCard/>
