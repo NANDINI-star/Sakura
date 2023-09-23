@@ -28,7 +28,7 @@ const Navbar = () => {
           <img src='/assets/Group.png' className='h-full min-w-[201px]' alt="Logo" />
         </div>
         <div>
-          <ul className='bg-white w-full py-4 px-2 text-center flex gap-10 hidden md:flex text-xl'>
+          <ul className='bg-white w-full py-4 px-2 text-center flex gap-10 hidden 1xl:flex text-xl'>
             {navItems.map((item, index) => (
               <li key={index}>
                 <button
@@ -47,24 +47,24 @@ const Navbar = () => {
         <FontAwesomeIcon
           onClick={() => setToggle(!toggle)}
           icon={iconName}
-          className='text-3xl cursor-pointer md:hidden'
+          className='text-3xl cursor-pointer 1xl:hidden'
           style={{ color: '#000205' }}
         />
       </nav>
       {/* Nav Items */}
-      <div className={`md:hidden ${toggle ? 'block' : 'hidden'}`}>
+      <div className={`1xl:hidden ${toggle ? 'block' : 'hidden'}`}>
         <ul className='bg-white w-full py-4 px-2 text-center'>
           {/* Mobile navigation items */}
           {navItems.map((item, index) => (
-            <li key={index} >
-              <button
+            <li className='hover:bg-gray-200' key={index} >
+              <h2
                 className={`block py-2 cursor-pointer ${
                   selectedNavItem === index ? 'text-[#BC005A]' : 'hover:text-gray-500'
                 }`}
                 onClick={() => handleNavItemSelect(index)}
               >
                 {item.label}
-              </button>
+              </h2>
             </li>
           ))}
           {/* Additional mobile navigation items */}
