@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return ( 
-    <section className="flex justify-center items-center my-3"  
+    <section className="flex justify-center items-center"  
     style={{
       backgroundImage: `url('/assets/Firefly Sakura education Indian school 69810.png')`,
       backgroundSize: 'cover', 
