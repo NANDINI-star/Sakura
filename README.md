@@ -1,3 +1,7 @@
+Website links:
+Sakura Science Club: https://ssp.jst.go.jp/sns/top.html
+JST: https://www.jst.go.jp/EN/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
