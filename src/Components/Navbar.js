@@ -28,17 +28,21 @@ const Navbar = () => {
       <nav className="flex items-center justify-between max-w-[1440px] gap-9 mx-auto mx-10">
         <ul className="flex justify-between items-center gap-8 1xl:hidden py-4 ">
           <li className="">
-            <img src="assets/Sakura_Logo.png" />
+            <a href="https://ssp.jst.go.jp/sns/top.html" target="_blank">
+              <img src="assets/Sakura_Logo.png" />
+            </a>
           </li>
           <li>
             <img src="assets/Group.png" />
           </li>
           <li>
-            <img
-              src="assets/logo_jst_en 2 (1).png"
-              style={{ maxHeight: "100%", maxWidth: "100%" }}
-              className="h-[41px] w-[73px]"
-            />
+            <a href="JST: https://www.jst.go.jp/EN/" target="_blank">
+              <img
+                src="assets/logo_jst_en 2 (1).png"
+                style={{ maxHeight: "100%", maxWidth: "100%" }}
+                className="h-[41px] w-[73px]"
+              />
+            </a>
           </li>
         </ul>
         <ul className="bg-white w-full py-4 mx-4 text-center flex justify-between gap-10 hidden 1xl:flex text-xl">
