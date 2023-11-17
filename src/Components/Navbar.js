@@ -20,7 +20,7 @@ const Navbar = () => {
     { label: "How to Apply?" },
     { label: "Alumni" },
     { label: "Experiences" },
-    { label: "Login" },
+    { label: "FAQs" },
   ];
 
   return (
