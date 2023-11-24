@@ -2,6 +2,8 @@ Website links:
 Sakura Science Club: https://ssp.jst.go.jp/sns/top.html
 JST: https://www.jst.go.jp/EN/
 
+Figma link: https://www.figma.com/file/4pKxdDRItIi7U2gyYIMJi2/Untitled?type=design&node-id=0%3A1&mode=design&t=sWXNA4mrRpS7GEi7-1
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
