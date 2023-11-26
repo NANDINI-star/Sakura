@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='bg-[#D0DDFF] p-10'>
+    <div className='bg-[#D0DDFF] p-10' id='about-the-program'>
         <div class="wrap w-5/6 mx-auto ">
             <div class="grid grid-cols-10 ">
             <div class="row-span-full col-start-4 col-end-11 self-center">
