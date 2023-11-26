@@ -16,12 +16,21 @@ const Navbar = () => {
   // Define your navigation items as an array of objects with labels
   const navItems = [
     { label: "About the Program" },
-    { label: "Events" },
+    { label: "Programs" },
     { label: "How to Apply?" },
     { label: "Alumni" },
     { label: "Experiences" },
     { label: "FAQs" },
   ];
+
+  const navIds = [
+    {id: "about-the-program"},
+    {id: "programs"},
+    {id: "how-to-apply"},
+    {id: "almuni"},
+    {id: "experiences"},
+    {id: "faqs"}
+  ]
 
   return (
     <header className="bg-white font-serif">
@@ -57,7 +66,10 @@ const Navbar = () => {
                 style={{ fontFamily: "InriaSans" }}
                 onClick={() => handleNavItemSelect(index)}
               >
-                {item.label}
+                <a href={"#"+navIds[index].id}>
+                  {item.label}
+                </a>
+                
               </button>
             </li>
           ))}

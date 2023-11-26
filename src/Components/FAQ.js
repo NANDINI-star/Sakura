@@ -4,7 +4,7 @@ import FAQCompo from './SmallCompo/FAQCompo';
 
 const FAQ = () => {
   return (
-    <div style={{ backgroundColor: '#D0DDFF' }}>
+    <div id="faqs" style={{ backgroundColor: '#D0DDFF' }}>
       <div className='container mx-auto  flex flex-col items-center justify-center' >
         <div className='relative w-[300px] h-[200px] 1xl:w-[970px] 1xl:h-[350px] lg:w-[708px] lg:h-[255px] sm:w-[516px] sm:h-[186px] pb-10 mx-auto rounded-[58px] my-[50px] mb-[100px] border border-black' style={{ backgroundColor: '#FFE8E8' }}>
            <div className='flex px-[100px] flex-col justify-center items-center gap-5'>
